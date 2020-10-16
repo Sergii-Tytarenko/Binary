@@ -365,7 +365,7 @@ body {
 }
 
 .portfolio__nav {
-  margin: 0 0 125px 0;
+  margin: 0 0 100px 0;
 }
 
 .portfolio__examples {
@@ -387,6 +387,12 @@ body {
   @media (max-width: 757px) {
     flex: 1 1 100%;
   }
+}
+
+.portfolio__link:hover,
+.portfolio__link:focus {
+  display: block;
+  box-shadow: 0 0 10px #ccc;
 }
 
 .portfolio__row {
@@ -449,6 +455,7 @@ body {
 }
 
 .partners__photo {
+  display: block;
   padding: 0 55px;
   & img {
     margin: 0 auto;
@@ -458,7 +465,7 @@ body {
 
 
 /* Contacts
-===================== */
+===================== =====================*/
 .contacts {
   max-width: 1130px;
   margin: 0 auto;
@@ -508,10 +515,13 @@ body {
   display: block;
   width: 160px;
   height: 40px;
-  padding: 5px;
+  padding: 0 10px;
 
   background-color: #f8f7f7;
   border-top: 1px solid #000;
+  &:focus {
+    border-top: 2px solid #4a7d91;
+  }
 }
 
 .contacts__message {
@@ -521,11 +531,15 @@ body {
 .contacts__textarea {
   width: 100%;
   height: 115px;
+  padding: 10px;
 
   background-color: #f8f7f7;
   border-top: 1px solid #000;
   resize: none;
   overflow: auto;
+  &:focus {
+    border-top: 2px solid #4a7d91;
+  }
 
 }
 
@@ -587,8 +601,8 @@ body {
 
 
 
-/* Section Footer
-===================== */
+/*Footer
+===================== =====================*/
 .main-footer {
   display: flex;
   flex-direction: column;
@@ -612,9 +626,12 @@ body {
     font-size: 14px;
     font-weight: 400;
     padding: 10px;
+    transition: all .3s ease;
   }
-  & .nav__link:hover {
-    background-color: #444;
+  & .nav__link:hover,
+  & .nav__link:focus {
+    color: #000;
+    background-color: #666;
   }
 }
 

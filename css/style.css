@@ -473,7 +473,7 @@ body {
     text-align: center;
 }
 
-.parnters__list {
+.partners__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -544,7 +544,7 @@ body {
     border-top: 1px solid #000;
 }
 
-.contacnts__massage {
+.contacts__massage {
     margin: 0 0 35px;
 }
 
@@ -619,18 +619,18 @@ body {
     background-color: #4c4c4c;
 }
 
-.footer__img {
+.main-footer__img {
     width: 122px;
     height: 78px;
 }
 
-.footer__nav .nav__link {
+.main-footer__nav .nav__link {
     color: #7e7e7e;
     font-size: 14px;
     font-weight: 400;
     padding: 10px;
 }
-.footer__nav .nav__link:hover {
+.main-footer__nav .nav__link:hover {
     background-color: #444;
 }
 

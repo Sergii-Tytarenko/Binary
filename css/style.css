@@ -6,7 +6,11 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Обнуление*/
+
+
+
+/* Reset style
+===================== =====================*/
 * {
     padding: 0;
     margin: 0;
@@ -34,7 +38,6 @@ html, body {
     width: 100%;
     font-size: 100%;
     line-height: 1;
-    font-size: 14px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -82,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 ===================== =====================*/
 html,
 body {
-    height: 100%;
     color: #868585;
     font: 300 14px/26px "Lato", sans-serif;
     background-color: #fff;
@@ -165,6 +167,7 @@ body {
     color: #fff;
     text-align: center;
 }
+
 .intro__headlines::after {
     content: "";
     position: absolute;
@@ -231,9 +234,11 @@ body {
     color: #fff;
     border-color: #fff;
 }
+
 .btn_white:hover, .btn_white:focus {
     background-color: #4d7f94;
 }
+
 .btn_white::after {
     content: "";
     position: absolute;
@@ -259,6 +264,7 @@ body {
         transform: translateY(20px);
     }
 }
+
 /* About
 ===================== =====================*/
 .about {
@@ -319,6 +325,7 @@ body {
     text-align: center;
     letter-spacing: 8.95px;
 }
+
 .title:after {
     content: "";
     position: absolute;
@@ -441,6 +448,7 @@ body {
     height: 100%;
     box-shadow: 0 0 10px #ccc;
 }
+
 .portfolio__link::before {
     content: "";
     position: absolute;
@@ -469,6 +477,7 @@ body {
     background: #4a7d91 url("../img/backgrounds/partners.jpg") center no-repeat fixed;
     z-index: 1;
 }
+
 .partners::before {
     content: "";
     position: absolute;
@@ -540,6 +549,7 @@ body {
 .contacts__column:first-child {
     margin: 0 0 0 100px;
 }
+
 .contacts__column:last-child {
     margin: 0 0 0 80px;
 }
@@ -570,6 +580,7 @@ body {
     background-color: #f8f7f7;
     border-top: 1px solid #000;
 }
+
 .contacts__input:focus {
     border-top: 2px solid #4a7d91;
 }
@@ -587,6 +598,7 @@ body {
     resize: none;
     overflow: auto;
 }
+
 .contacts__textarea:focus {
     border-top: 2px solid #4a7d91;
 }
@@ -617,6 +629,7 @@ body {
 .social__item {
     margin-right: 10px;
 }
+
 .social__item:last-child {
     margin-right: 0;
 }
@@ -631,6 +644,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
 }
+
 .social__link:hover, .social__link:focus {
     background-color: #eaeaea;
 }
@@ -639,6 +653,7 @@ body {
     color: #000;
     font-weight: 700;
 }
+
 .contacts__email:hover, .contacts__email:focus {
     text-decoration: underline;
 }
